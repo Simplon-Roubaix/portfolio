@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="application/javascript" src="js/jquery-1.11.3.min.js"></script>
+  <script type="application/javascript" src="js/bootstrap.min.js"></script>
+  <script type="application/javascript" src="main.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="animate.min.css">
+  <link rel="icon" type="image/png" href="img/Cicone.png" />
+  <link rel="stylesheet" media="screen">
+  <title>Accueil Portfolio</title>
+</head>
+
+<body>
+  <div class="navbar-wrapper">
+    <div class="container">
+
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header animated rubberBand" >
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            <a class="navbar-brand" href="#">Portfolio</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Accueil</a></li>
+              <li><a href="#about">A propos</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <p>Binome1</p>
+                  </li>
+                  <li><a href="#">fb</a></li>
+                  <li><a href="#">tonbouy</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <p>Binone2</p>
+                  </li>
+                  <li><a href="#">mail</a></li>
+                  <li><a href="#">tayoum</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+
+  <!-- Carousel
+    ================================================== -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img class="first-slide img-responsive imgcarou" src="img/croissant1.jpeg" style="min-width:100%; height:500px;" alt="First slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Les croissants.</h1>
+            <p>Note:Cliquez sur la flèche de droite ou gauche pour changer d'image.</p>
+            <p><a class="btn btn-lg btn-success" href="Croissants.html" role="button">Voir plus</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img class="second-slide img-responsive imgcarou" src="img/pain1.jpg"  style="min-width:100%; height:500px;" alt="Second slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Les petits pains.</h1>
+            <p>Note:Cliquez sur la flèche de droite ou gauche pour changer d'image.</p>
+            <p><a class="btn btn-lg btn-success" href="Petitspains.html" role="button">Voir plus</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img class="second-slide img-responsive imgcarou" src="img/melange.jpeg"  style="min-width:100%; height:500px;" alt="Second slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Les mélanges.</h1>
+            <p>Note:Cliquez sur la flèche de droite ou gauche pour changer d'image.</p>
+            <p><a class="btn btn-lg btn-success" href="Melange.html" role="button">Voir plus</a></p>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Précédent</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Suivant</span>
+      </a>
+        <!-- Indicateurs du carousel -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+    </div>
+    <!-- fin du carousel -->
+
+
+    <div class="container">
+
+      <!-- 2 colonne de texte après le carousel -->
+      <div class="row">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+          <img class="img-circle animated pulse" src="img/croissant01.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Croissants</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-primary" href="Croissants.html" role="button">plus de détail &raquo;</a></p>
+        </div>
+        <!-- fin du col-xs-12 col-sm-12 col-md-4 col-lg-4 -->
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+          <img class="img-circle animated pulse" src="img/ptitpain1.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Petits pains</h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <p><a class="btn btn-primary" href="Petitspains.html" role="button">+ de détail &raquo;</a></p>
+        </div>
+        <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1"></div>
+        <!-- fin du col-xs-12 col-sm-12 col-md-4 col-lg-4 -->
+      </div>
+      <!-- fin du row -->
+
+
+      <!-- DEBUT FEATURETE-->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div id="left1" class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+          <h2 class="featurette-heading">Premier sujet/contenu.
+            <span class="text-muted">Ce texte est muet.</span>
+          </h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img id="right1" class="featurette-image img-responsive center-block" src="vi.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div id="right2" class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Voila on est au deuxieme sujet un truc comme ca.
+            <span class="text-muted">Lis par toi meme ce qu'il contient.</span>
+          </h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div id="left2" class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="ahri.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div id="left3" class="col-md-7">
+          <h2 class="featurette-heading">Pour finir.
+            <span class="text-muted">Lis ici.</span>
+          </h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img id="right3" class="featurette-image img-responsive center-block" src="renek.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /FIN FEATURETTE-->
+
+
+      <!-- Footer -->
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <p>Copyright TonbouyProf et ManwellProd</p>
+          </div>
+        </div>
+        <!-- /.row -->
+      </footer>
+
+    </div>
+    <!-- /.container -->
+    </div>
+    <!-- /.container -->
+  
+</body>
+
+</html>

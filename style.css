@@ -1,0 +1,124 @@
+
+/*Modification du titre */
+
+.navbar-inverse .navbar-brand {
+        color: white;
+        margin-right: 10%;
+}
+
+.navbar-brand {
+        font-size: 3.5em;
+}
+
+/*Alignement des deux colonnes en dessous du caroussel */
+
+.col-lg-5 {
+        text-align: center;
+        margin-top: 5% ;
+        margin-bottom: 5% ;
+}
+
+/* animation premier div row */
+
+#right1 {
+        transition: all 0.9s ease;
+        opacity: 0;
+}
+
+#right1.animated.zoomIn {
+        opacity: 1;
+}
+
+#left1 {
+  transition: all 0.9s ease;
+        opacity: 0;
+}
+
+#left1.animated.zoomIn {
+        opacity: 1;
+}
+
+/* animation seconde div row */
+
+#left2 {
+        transition: all 1.5s ease;
+        opacity: 0;
+}
+
+#left2.animated.fadeInLeft {
+        opacity: 1;
+}
+
+#right2 {
+        transition: all 1.5s ease;
+        opacity: 0;
+}
+
+#right2.animated.fadeInRIght {
+        opacity: 1;
+}
+
+/* animation dernière div row */
+#right3 {
+        transition: all 3s ease;
+        opacity: 0;
+}
+
+#right3.animated.fadeInUp {
+        opacity: 1;
+}
+
+#left3 {
+        transition: all 3s ease;
+        opacity: 0;
+}
+
+#left3.animated.fadeInUp {
+        opacity: 1;
+}
+
+
+/*#########################################################################################
+                           PAGE 2 ET PAGE 3 ET PAGE 4
+########################################################################################### */
+
+.pages {
+  margin-top: 5%;
+}
+.imagefolio {
+  height: 400px;
+  width: 100%;
+  margin-top: 50px;
+}
+.ppage {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+}
+.page-header {
+  text-align: center;
+}
+footer {
+  border-top: 1px solid grey;
+  text-align: center;
+}
+footer p {
+  padding-top: 5%;
+}
+
+@media screen and (max-width: 330px) {
+
+  .pages {
+    margin-top: 20%;
+  }
+  .imagefolio {
+    height: 200px;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  img.img-responsive{
+    min-width: 100%;
+    height: 200px;
+  }
+}
